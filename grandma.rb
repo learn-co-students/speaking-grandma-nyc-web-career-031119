@@ -5,6 +5,7 @@ def speak_to_grandma(phrase)
  return 'HUH?! SPEAK UP, SONNY!'  if phrase == 'Hi!'
  return "NO, NOT SINCE 1938!"     if phrase == 'WHAT DID YOU EAT TODAY?'
  return "NO, NOT SINCE 1938!"     if phrase == 'WHAT?'
+ return
 end
 # Whatever you say to grandma, she should respond with
 # HUH?! SPEAK UP, SONNY!
